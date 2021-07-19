@@ -1,16 +1,18 @@
 # Threads_debugging_tool
  This is a debugging tool for program with multi-threads that allow you to set break points in every threads, and skip some specific functions' break point without quiting the processing.  In addition, you can simply set "DEBUG = False" to disable all the debugging print and log without comment them. Each time using the function, you should use it like this:
-            ```
+```
             import debugging as dbg
             
             dbg.DEBUG = True
             dbg.DBG = True
             dbg.dbg(<the content you wanna show>)
-            ```
+```
  
  
 You can also use it to log and save in a file by setting
+
             ```dbg.LOG = True```
+            
 before you using "dbg.dbg(<content>)"
         
  
