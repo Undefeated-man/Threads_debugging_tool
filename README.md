@@ -15,15 +15,15 @@ You can also use it to log and save in a file by setting
             dbg.LOG = True
 ```
             
-before you using ```dbg.dbg(\<content\>)```
+before you using ```dbg.dbg(<content>)```
         
  
  
 You can change the separate notation between each content by setting 
 ```
-             sbg.SEP = "\<new notation\>"
+             sbg.SEP = "<new notation>"
 ```
-before using ```dbg.dbg(\<content\>)```
+before using ```dbg.dbg(<content>)```
         
     
  
@@ -37,13 +37,13 @@ everything won't show anymore (you don't need to delete all of these things writ
  
 You can seperatly choose to debug different parts of your code by setting ```dbg.PART```, like:
 ```
-            dbg.PART.append(\<part_num\>)     # the part you wanna add
+            dbg.PART.append(<part_num>)     # the part you wanna add
                                             # to debug
-            dbg.dbg(\<content\>, \<part_num\>)
+            dbg.dbg(<content>, <part_num>)
 ```
  and when this part you no longer want to debug it, just enter
 ```
-             skip \<part_num\>
+             skip <part_num>
 ```
  then it won't debug this part any more.
  
