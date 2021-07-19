@@ -21,7 +21,7 @@ before you using ```dbg.dbg(<content>)```
  
 You can change the separate notation between each content by setting 
 ```
-             sbg.SEP = "<new notation>"
+             sbg.SEP = "<new separating notation>"
 ```
 before using ```dbg.dbg(<content>)```
         
@@ -50,4 +50,4 @@ You can seperatly choose to debug different parts of your code by setting ```dbg
  
  
  
- Hope that you have fun will this tool. Welcome commit!i😁
+ Hope that you have fun will this tool. Welcome commit! 😁
