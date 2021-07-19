@@ -5,7 +5,7 @@
             
             dbg.DEBUG = True
             dbg.DBG = True
-            dbg.dbg(\<the content you wanna show\>)
+            dbg.dbg(<the content you wanna show>)
 ```
  
  
