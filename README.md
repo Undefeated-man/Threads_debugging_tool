@@ -20,29 +20,31 @@ before you using "dbg.dbg(<content>)"
  
  
 You can change the separate notation between each content by setting 
- ```
- sbg.SEP = "<new notation>"
- ```
+```
+             sbg.SEP = "<new notation>"
+```
 before using "dbg.dbg(<content>)"
         
     
  
 When you don't want to debug, just set 
-            ```dbg.DEBUG = False```
+```
+             dbg.DEBUG = False
+```
 everything won't show anymore (you don't need to delete all of these things writen during debugging)
 
 
  
 You can seperatly choose to debug different parts of your code by setting "dbg.PART", like:
-            ```
+```
             dbg.PART.append(<part_num>)     # the part you wanna add
                                             # to debug
             dbg.dbg(<content>, <part_num>)
-            ```
+```
  and when this part you no longer want to debug it, just enter
- ```
+```
              skip <part_num>
- ```
+```
  then it won't debug this part any more.
  
  
