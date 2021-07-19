@@ -11,14 +11,18 @@
  
 You can also use it to log and save in a file by setting
 
-            ```dbg.LOG = True```
+```   
+            dbg.LOG = True
+```
             
 before you using "dbg.dbg(<content>)"
         
  
  
 You can change the separate notation between each content by setting 
-            ```sbg.SEP = "<new notation>"```
+ ```
+ sbg.SEP = "<new notation>"
+ ```
 before using "dbg.dbg(<content>)"
         
     
