@@ -1,4 +1,29 @@
 """
+	###########################################################################
+	#		                                                                  #
+	#		Project: Threads_debugging_tool                                   #
+	#		                                                                  #
+	#		Filename: debugging.py                                            #
+	#		                                                                  #
+	#		Programmer: Vincent Holmes 1135235700@qq.com                      #
+	#		                                                                  #
+	#		Description: This is a debugging tool for program with multi-th   #
+	#                     reads that allow you to set break points in every   #
+	#                      threads, and skip some specific functions' break   #
+	#                      point without quiting the processing. In additio   #
+	#                     n, you can simply set "DEBUG = False" to disable    #
+	#                     all the debugging print and log without comment t   #
+	#                     hem.                                                #
+	#		                                                                  #
+	#		Start_date: 2021-07-18                                            #
+	#		                                                                  #
+	#		Last_update: 2021-07-19                                           #
+	#		                                                                  #
+	###########################################################################
+"""
+
+
+"""
     Introduction:
         This is a debugging tool for threading. Each time using 
         the function, you should use it like this:
